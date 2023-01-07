@@ -271,6 +271,9 @@ if drink_choice == 12:
         money = TOMATO_CHIPS - money
         print (money)
 print("")
+
+#this code is used to ask the user to buy something else with it
+
 user_input = input("would you like to buy something else?(yes/no): ").lower()
 if user_input == "yes":print("please follow the steps again")
 
